@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #ddd;
+}
+main{
+    text-align: center;
+    padding: 50px;
+}
+.square{
+    padding: 20px;
+    display: inline-block;
+    color: #fff;
+    white-space: nowrap;
+}
+.square:nth-of-type(1){
+    font-size: 13px;
+    line-height: 1.4;
+    background-color: lightcoral;
+}
+.square:nth-of-type(2){
+    font-size: 15px;
+    line-height: 1.2;
+    background-color: lightseagreen;
+}
+.square:nth-of-type(3){
+    font-size: 16px;
+    line-height: 1.1;
+    background-color: lightsalmon;
+}
+.square:nth-of-type(4){
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: lightskyblue;
+}
